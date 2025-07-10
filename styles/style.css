@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    /* width: 1440px; */
+    height: 698px;
+    /* margin: auto;
+    border-radius: 8px; */
+    
+    
+}
+
+
+/* primary color */
+.primary-color {
+    color: #4E47FF;
+}
+
+/* shared styles */
+.primary-button {
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    /* margin: 40px auto 0 auto; */
+    margin: auto;
+}
+
+.navigation .logo {
+    font-size: 34px;
+}
+
+/* Banner section styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+
+
+}
+
+.banner .content {
+    text-align: center;
+    font-size: 30px;
+
+}
+.banner .content h1{
+    
+    margin-bottom: 30px;
+}
+.content button {
+    color: white;
+    background-color: #4E47FF;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+/* Action Section styles */
+.action{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.action-right{
+    width: 517px;
+}
+.action-right h2{
+    font-size: 42px;
+   }
+.action-right p{
+    font-size: 24px;
+}
+    
