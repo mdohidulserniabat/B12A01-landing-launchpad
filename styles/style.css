@@ -6,7 +6,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #f5f8ff;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
 header {
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
@@ -34,6 +40,16 @@ header {
     width: 100px;
     font-size: 16px;
     color: white;
+}
+.primary-button:hover {
+    background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
 }
 
 .navigation {
@@ -83,6 +99,17 @@ header {
     padding: 26px 36px;
 
 }
+.content .stay-focused:hover {
+     background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+
+}
 
 /* Action Section styles */
 .action {
@@ -122,6 +149,16 @@ header {
     cursor: pointer;
     margin-top: 20px;
     padding: 26px 36px;
+}
+.action-button:hover {
+   background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
 }
 
 .action-left img {
@@ -254,7 +291,7 @@ header {
 /* contact section start */
 .contact {
     display: flex;
-    background: #f4f6fc;
+    background: #f5f8ff;
     padding: 50px;
     border-radius: 10px;
     max-width: 1140px;
@@ -314,7 +351,49 @@ header {
     cursor: pointer;
     transition: 0.3s ease;
 }
-
 .right button:hover {
-    background-color: #4338ca;
+     background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+/* footer section start */
+.container{
+    margin: 50px 0 0 0 ;
+}
+.footer-content {
+    text-align: center;
+}
+.footer-navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.footer-navbar ul li{
+   list-style: none;
+}
+.footer-navbar ul li a{
+   text-decoration: none;
+   color: #8987A1;
+}
+.footer-content h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: inter;
+}
+.footer-content p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: inter;
+    color: #8987A1;
 }
