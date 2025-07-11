@@ -95,9 +95,10 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 20px;
-    padding: 26px 36px;
-
+   padding: 10px 10px;
+   text-align: center;
+    height: 45px;
+    width: 200px;
 }
 .content .stay-focused:hover {
      background-color: #ecd92b;
@@ -123,6 +124,7 @@ header {
 
 .action-right {
     width: 517px;
+    font-family: "Raleway", sans-serif;;
 }
 
 .action-right p {
@@ -147,8 +149,9 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    height: 45px;
+    width: 200px;
     margin-top: 20px;
-    padding: 26px 36px;
 }
 .action-button:hover {
    background-color: #ecd92b;
@@ -177,14 +180,16 @@ header {
     background-color: #e8eafe;
     border-radius: 16px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
 
 }
 
 .stats-section h2 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 600;
     color: #1a1a1a;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    font-family: "Raleway", sans-serif;
 }
 
 .stats-grid {
@@ -199,7 +204,7 @@ header {
 }
 
 .stat-item h3 {
-    font-size: 32px;
+    font-size: 52px;
     color: #4f46e5;
     margin-bottom: 5px;
 }
@@ -288,6 +293,40 @@ header {
 }
 
 /* reiview section end */
+
+/* optinal-section */
+.optinal-section{
+    max-width: 1140px;
+    width: 100%;
+    height: 696px;
+    margin: 120px auto;
+    padding: 70px 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    border-radius: 12px;
+    
+}
+.optinal-section .image{
+   margin-top: 30px;
+    
+    
+}
+.optinal-section h1{
+   font-size: 50px;
+   font-family: "Raleway", sans-serif;
+   margin-bottom: 20px;
+  
+    
+    
+}
+.optinal-section .p{
+   font-family: "Raleway", sans-serif;
+   margin: 15px 10px ;
+    
+    
+}
 /* contact section start */
 .contact {
     display: flex;
@@ -305,10 +344,11 @@ header {
     flex: 1 1 300px;
     display: flex;
     align-items: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #000;
     line-height: 1.2;
+    font-family: "Raleway", sans-serif;
 }
 
 .right {
@@ -353,11 +393,6 @@ header {
 }
 .right button:hover {
      background-color: #ecd92b;
-    border-radius: 10px;
-    border: none;
-    width: 100px;
-    font-size: 16px;
-    color: white;
     transition: 2s;
     cursor: pointer;
 }
@@ -392,7 +427,7 @@ header {
     font-family: inter;
 }
 .footer-content p {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 10px;
     font-family: inter;
     color: #8987A1;
