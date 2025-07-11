@@ -273,6 +273,7 @@ header {
 .card-body p {
     color: #1E1E1E;
     font-size: 15px;
+    text-align: left;
 }
 
 .card-footer {
@@ -289,9 +290,15 @@ header {
     color: #757575;
 }
 
-.footer-content p {
+.card-content  h4 {
     color: #B3B3B3;
     text-align: left;
+    padding-left: 20px;
+}
+.card-content p {
+    color: #B3B3B3;
+    text-align: left;
+    padding-left: 20px;
 }
 
 .card-footer img {
