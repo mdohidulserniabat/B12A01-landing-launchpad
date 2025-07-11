@@ -6,22 +6,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f5f8ff;
 }
+
 span {
     color: red;
     font-weight: bold;
 }
+
 header {
     background-image: url('../Assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 40px;
-    /* width: 1440px; */
     height: 698px;
     margin: auto;
-    /* border-radius: 8px; */
+
 
 
 }
@@ -41,6 +43,7 @@ header {
     font-size: 16px;
     color: white;
 }
+
 .primary-button:hover {
     background-color: #ecd92b;
     border-radius: 10px;
@@ -56,7 +59,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 1140px;
-    /* margin: 40px auto 0 auto; */
     margin: auto;
 }
 
@@ -95,16 +97,17 @@ header {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-   padding: 10px 10px;
-   text-align: center;
+    padding: 10px 10px;
+    text-align: center;
     height: 45px;
     width: 200px;
 }
+
 .content .stay-focused:hover {
-     background-color: #ecd92b;
+    background-color: #ecd92b;
     border-radius: 10px;
     border: none;
-    
+
     font-size: 16px;
     color: white;
     transition: 2s;
@@ -124,7 +127,8 @@ header {
 
 .action-right {
     width: 517px;
-    font-family: "Raleway", sans-serif;;
+    font-family: "Raleway", sans-serif;
+    ;
 }
 
 .action-right p {
@@ -153,11 +157,12 @@ header {
     width: 200px;
     margin-top: 20px;
 }
+
 .action-button:hover {
-   background-color: #ecd92b;
+    background-color: #ecd92b;
     border-radius: 10px;
     border: none;
-    
+
     font-size: 16px;
     color: white;
     transition: 2s;
@@ -286,6 +291,7 @@ header {
 
 .footer-content p {
     color: #B3B3B3;
+    text-align: left;
 }
 
 .card-footer img {
@@ -295,7 +301,7 @@ header {
 /* reiview section end */
 
 /* optinal-section */
-.optinal-section{
+.optinal-section {
     max-width: 1140px;
     width: 100%;
     height: 696px;
@@ -306,27 +312,32 @@ header {
     text-align: center;
     font-family: "Raleway", sans-serif;
     border-radius: 12px;
-    
+
 }
-.optinal-section .image{
-   margin-top: 30px;
-    
-    
+
+.optinal-section .image {
+    margin-top: 30px;
+
+
 }
-.optinal-section h1{
-   font-size: 50px;
-   font-family: "Raleway", sans-serif;
-   margin-bottom: 20px;
-  
-    
-    
+
+.optinal-section h1 {
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+
+
+
 }
-.optinal-section .p{
-   font-family: "Raleway", sans-serif;
-   margin: 15px 10px ;
-    
-    
+
+.optinal-section .p {
+    font-family: "Raleway", sans-serif;
+    margin: 15px 10px;
+    color: #8987A1;
+
+
 }
+
 /* contact section start */
 .contact {
     display: flex;
@@ -391,8 +402,9 @@ header {
     cursor: pointer;
     transition: 0.3s ease;
 }
+
 .right button:hover {
-     background-color: #ecd92b;
+    background-color: #ecd92b;
     transition: 2s;
     cursor: pointer;
 }
@@ -400,35 +412,42 @@ header {
 
 
 /* footer section start */
-.container{
-    margin: 50px 0 0 0 ;
+.container {
+    margin: 50px 0 0 0;
 }
+
 .footer-content {
     text-align: center;
 }
-.footer-navbar ul{
+
+.footer-navbar ul {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.footer-navbar ul li{
-   list-style: none;
+
+.footer-navbar ul li {
+    list-style: none;
 }
-.footer-navbar ul li a{
-   text-decoration: none;
-   color: #8987A1;
+
+.footer-navbar ul li a {
+    text-decoration: none;
+    color: #8987A1;
 }
+
 .footer-content h1 {
     font-size: 80px;
     font-weight: 600;
     margin-bottom: 10px;
     font-family: inter;
 }
+
 .footer-content p {
     font-size: 15px;
     margin-bottom: 10px;
     font-family: inter;
     color: #8987A1;
+    text-align: center;
 }
